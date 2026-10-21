@@ -1,24 +1,28 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="A student-friendly website promoting mental health awareness, self-care, and community volunteering.">
+        content="Mindful Minds is a student-led mental health awareness website promoting emotional well-being, self-care, kindness, and support.">
 
-    <title>Mindful Minds | Mental Health Awareness</title>
+    <title>Mindful Minds | Your Mind Matters</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
 
-    <!-- NAVIGATION BAR -->
-    <header>
-        <nav class="navbar">
-            <a href="#home" class="logo">mindful<span>minds.</span></a>
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a href="#home" class="logo">
+                Mindful Minds <span>♡</span>
+            </a>
 
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -27,148 +31,281 @@
                 <li><a href="#volunteer">Volunteer</a></li>
                 <li><a href="#support">Get Support</a></li>
             </ul>
+
         </nav>
     </header>
 
+
+    <!-- HOME / HERO SECTION -->
     <main>
 
-        <!-- HERO SECTION -->
         <section class="hero" id="home">
 
             <div class="hero-content">
-                <p class="eyebrow">A LITTLE SPACE FOR YOU 🌷</p>
 
-                <h1>Your mental health matters.</h1>
+                <p class="eyebrow">A LITTLE SPACE FOR YOUR MIND</p>
 
-                <p class="hero-text">
-                    You don't have to be okay all the time.
-                    Your feelings matter, your voice deserves
-                    to be heard, and you deserve kindness.
+                <h1>Your mind matters.<br>
+                    <span>Your feelings matter, too.</span>
+                </h1>
+
+                <p class="hero-description">
+                    A safe little corner to learn about mental health,
+                    practise self-care, and remind yourself that
+                    you are never alone in what you feel.
                 </p>
 
                 <div class="hero-buttons">
                     <a href="#learn" class="button button-primary">
-                        Explore Resources
+                        Explore Mental Health
                     </a>
 
-                    <a href="#volunteer" class="button button-secondary">
-                        Make a Difference
+                    <a href="#self-care" class="button button-secondary">
+                        Take a Self-Care Break
                     </a>
                 </div>
-            </div>
 
-            <div class="hero-art">
-                <span class="flower">✿</span>
-
-                <div class="art-circle">
-                    <span class="art-heart">♡</span>
-                    <p>Take a breath.<br>Grow at your own pace.</p>
-                    <span class="art-sparkle">✧</span>
-                </div>
             </div>
 
         </section>
 
-        <!-- INTRODUCTION -->
-        <section class="intro">
-            <p class="eyebrow">A NOTE TO YOU</p>
 
-            <h2>You don't have to figure everything out today.</h2>
+        <!-- INTRODUCTION SECTION -->
+        <section class="intro section-padding" id="about">
+
+            <p class="eyebrow">A REMINDER FOR YOU</p>
+
+            <h2>You don't have to be okay all the time.</h2>
 
             <p>
-                Mental health is an important part of our overall
-                well-being. Understanding our emotions, learning
-                healthy coping strategies, and reaching out for
-                support can help us care for ourselves and others.
+                Life can feel overwhelming sometimes. School, friendships,
+                expectations, and everyday challenges can affect how we feel.
+                Mindful Minds is here to make mental health easier to
+                understand and to encourage kindness towards ourselves
+                and others.
             </p>
+
+            <p>
+                Asking for help is a strength. Taking a break is okay.
+                And your feelings deserve to be heard.
+            </p>
+
         </section>
 
-        <!-- MENTAL HEALTH LEARNING RESOURCES -->
+
+        <!-- LEARN SECTION -->
         <section class="learn section-padding" id="learn">
 
-            <div class="section-heading">
-                <p class="eyebrow">UNDERSTAND YOURSELF</p>
+            <p class="eyebrow">UNDERSTAND YOURSELF</p>
 
-                <h2>Let's talk about mental health.</h2>
+            <h2>Let's talk about mental health.</h2>
 
-                <p>
-                    Learning about mental health is a step towards
-                    understanding ourselves and supporting others.
-                </p>
+            <p class="section-description">
+                Understanding what we feel is one small step towards
+                taking better care of ourselves.
+            </p>
+
+            <div class="learn-container">
+
+                <article class="learn-card">
+
+                    <h3>What Is Mental Health?</h3>
+
+                    <p>
+                        Mental health includes our emotional, psychological,
+                        and social well-being. It influences how we think,
+                        feel, handle challenges, and connect with others.
+                    </p>
+
+                </article>
+
+
+                <article class="learn-card">
+
+                    <h3>Understanding Stress</h3>
+
+                    <p>
+                        Stress is the body's response to challenges or
+                        pressure. Schoolwork, exams, and relationships
+                        can sometimes feel stressful. Rest, healthy
+                        routines, and support can help us cope.
+                    </p>
+
+                </article>
+
+
+                <article class="learn-card">
+
+                    <h3>Practising Self-Kindness</h3>
+
+                    <p>
+                        Being kind to yourself means treating yourself
+                        with patience and understanding, especially
+                        when things do not go as planned.
+                    </p>
+
+                </article>
+
+
+                <article class="learn-card">
+
+                    <h3>Breaking the Stigma</h3>
+
+                    <p>
+                        Mental health deserves the same care and
+                        understanding as physical health. Listening
+                        without judgement and challenging hurtful
+                        stereotypes can make a difference.
+                    </p>
+
+                </article>
+
+
+                <article class="learn-card">
+
+                    <h3>Healthy Friendships</h3>
+
+                    <p>
+                        Healthy friendships involve respect, trust,
+                        boundaries, and support. You can care about
+                        someone while also protecting your own
+                        emotional well-being.
+                    </p>
+
+                </article>
+
+
+                <article class="learn-card">
+
+                    <h3>When to Ask for Help</h3>
+
+                    <p>
+                        If difficult feelings persist, affect everyday
+                        life, or feel too heavy to manage alone, talking
+                        to a trusted adult or qualified mental health
+                        professional can help.
+                    </p>
+
+                </article>
+
             </div>
 
-            <div class="card-container">
-
-                <article class="info-card">
-                    <div class="card-icon">🌱</div>
-
-                    <h3>Understanding Mental Health</h3>
-
-                    <p>
-                        Discover what mental health means and why
-                        emotional well-being matters in everyday life.
-                    </p>
-                </article>
-
-                <article class="info-card">
-                    <div class="card-icon">☁️</div>
-
-                    <h3>Stress and School Life</h3>
-
-                    <p>
-                        Learn about common sources of stress and
-                        explore healthy ways to cope with challenges.
-                    </p>
-                </article>
-
-                <article class="info-card">
-                    <div class="card-icon">💗</div>
-
-                    <h3>Self-Worth and Kindness</h3>
-
-                    <p>
-                        Remember that mistakes are part of learning
-                        and asking for help is a strength.
-                    </p>
-                </article>
-
-            </div>
         </section>
+
 
         <!-- SELF-CARE SECTION -->
         <section class="self-care section-padding" id="self-care">
 
-            <div class="self-care-content">
-                <p class="eyebrow">A GENTLE REMINDER</p>
+            <p class="eyebrow">SLOW DOWN A LITTLE</p>
 
-                <h2>Small steps count, too.</h2>
+            <h2>Small ways to care for yourself.</h2>
 
-                <p>
-                    Looking after yourself doesn't have to be
-                    complicated. Start with small, manageable habits.
-                </p>
+            <p class="section-description">
+                Self-care does not have to be complicated.
+                Sometimes, the little things matter most.
+            </p>
 
-                <ul class="care-list">
-                    <li>♡ Take breaks when you need them.</li>
-                    <li>♡ Talk to someone you trust.</li>
-                    <li>♡ Make time for things you enjoy.</li>
-                    <li>♡ Try a few slow, comfortable breaths.</li>
-                    <li>♡ Ask for help when things feel difficult.</li>
-                </ul>
+            <div class="self-care-container">
+
+                <article class="self-care-card">
+
+                    <h3>Take a Breather</h3>
+
+                    <p>
+                        Step away from your work for a moment.
+                        Breathe slowly and give yourself permission
+                        to pause.
+                    </p>
+
+                </article>
+
+
+                <article class="self-care-card">
+
+                    <h3>Move Your Body</h3>
+
+                    <p>
+                        Stretch, walk, dance, or do any gentle
+                        movement you enjoy. There is no need
+                        to make it perfect.
+                    </p>
+
+                </article>
+
+
+                <article class="self-care-card">
+
+                    <h3>Stay Connected</h3>
+
+                    <p>
+                        Talk to someone you trust. A supportive
+                        conversation can help you feel heard
+                        and less alone.
+                    </p>
+
+                </article>
+
+
+                <article class="self-care-card">
+
+                    <h3>Make Time for Joy</h3>
+
+                    <p>
+                        Read, listen to music, draw, spend time
+                        outdoors, or enjoy a hobby that makes
+                        you feel like yourself.
+                    </p>
+
+                </article>
+
+
+                <article class="self-care-card">
+
+                    <h3>Rest Without Guilt</h3>
+
+                    <p>
+                        Sleep, breaks, and downtime are important.
+                        You do not have to be productive every
+                        single moment.
+                    </p>
+
+                </article>
+
+
+                <article class="self-care-card">
+
+                    <h3>Set Gentle Boundaries</h3>
+
+                    <p>
+                        It is okay to say no, ask for space,
+                        and recognise when you need support.
+                    </p>
+
+                </article>
+
             </div>
 
-            <div class="quote-card">
-                <span class="quote-mark">“</span>
 
-                <blockquote>
-                    You are a work in progress,
-                    and that is a beautiful thing.
-                </blockquote>
+            <!-- AFFIRMATION -->
+            <div class="affirmation-card">
 
-                <p>GROW AT YOUR OWN PACE 🌼</p>
+                <p class="eyebrow">A LITTLE REMINDER</p>
+
+                <h3 id="affirmation-text">
+                    I am allowed to grow at my own pace.
+                </h3>
+
+                <button
+                    type="button"
+                    class="button button-primary"
+                    id="affirmation-button">
+                    Give Me Another Reminder ♡
+                </button>
+
             </div>
 
         </section>
+
 
         <!-- VOLUNTEER SECTION -->
         <section class="volunteer section-padding" id="volunteer">
@@ -183,109 +320,176 @@
                 and encouraging kindness among students.
             </p>
 
+
             <div class="volunteer-container">
 
                 <article class="volunteer-card">
-                    <span class="volunteer-icon">📢</span>
 
                     <h3>Spread Awareness</h3>
 
                     <p>
-                        Share reliable educational resources and
-                        help challenge mental health stigma.
+                        Help spread mental health awareness and
+                        encourage open conversations about
+                        emotional well-being.
                     </p>
+
                 </article>
 
+
                 <article class="volunteer-card">
-                    <span class="volunteer-icon">🎨</span>
 
                     <h3>Create and Contribute</h3>
 
                     <p>
-                        Help develop awareness posters, educational
-                        content, and student-friendly resources.
+                        Contribute through research, writing,
+                        educational resources, graphic design,
+                        and creative digital content.
                     </p>
+
                 </article>
 
+
                 <article class="volunteer-card">
-                    <span class="volunteer-icon">🤝</span>
 
                     <h3>Community Activities</h3>
 
                     <p>
-                        Participate in school-approved awareness
-                        campaigns and community initiatives.
+                        Help organise awareness initiatives,
+                        share educational resources, and
+                        encourage kindness in your community.
                     </p>
+
                 </article>
 
             </div>
 
-            <a href="mailto:YOUR_EMAIL@example.com?subject=Mindful%20Minds%20Volunteer" class="button button-primary">
-                Become a Volunteer ♡
-            </a>
 
-            <p class="volunteer-note">
-                Replace the example email address with an authorized
-                contact address before publishing this website.
-                Volunteers should share awareness resources, not
-                attempt to diagnose or treat other students.
-            </p>
+            <!-- VOLUNTEER APPLICATION FORM -->
+            <div class="volunteer-application">
+
+                <h3>Apply to Volunteer</h3>
+
+                <p>
+                    Tell us about yourself and how you'd like
+                    to contribute to Mindful Minds.
+                </p>
+
+                <iframe
+                    src="https://forms.gle/6fpqvRR7dgj56F38A"
+                    width="100%"
+                    height="1200"
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0"
+                    title="Mindful Minds Volunteer Application">
+                    Loading…
+                </iframe>
+
+            </div>
 
         </section>
+
 
         <!-- GET SUPPORT SECTION -->
         <section class="support section-padding" id="support">
 
-            <p class="eyebrow">YOU DON'T HAVE TO DO IT ALONE</p>
+            <p class="eyebrow">YOU DESERVE SUPPORT</p>
 
-            <h2>It's okay to ask for help.</h2>
+            <h2>You don't have to figure everything out alone.</h2>
 
-            <p class="support-text">
-                If something is troubling you, consider speaking
-                to a trusted adult, school counsellor, or qualified
-                mental health professional. You deserve to be heard.
+            <p class="section-description">
+                Reaching out can feel difficult, but you deserve
+                to be listened to and supported.
             </p>
 
-            <div class="support-box">
-                <h3>Looking for support in India?</h3>
 
-                <p>
-                    Tele-MANAS provides free, 24-hour mental health
-                    support in India.
-                </p>
+            <div class="support-container">
 
-                <p class="helpline">
-                    <a href="tel:14416">Call 14416</a>
-                </p>
+                <article class="support-card">
 
-                <p class="small-note">
-                    If you are in immediate danger, seek help from
-                    a trusted adult or contact local emergency services.
-                </p>
+                    <h3>Talk to Someone You Trust</h3>
+
+                    <p>
+                        Consider speaking with a parent, guardian,
+                        teacher, school counsellor, or another
+                        trusted adult about how you are feeling.
+                    </p>
+
+                </article>
+
+
+                <article class="support-card">
+
+                    <h3>India's Tele-MANAS Helpline</h3>
+
+                    <p>
+                        Tele-MANAS provides mental health support
+                        in India. You can call the helpline for
+                        assistance and guidance.
+                    </p>
+
+                    <p>
+                        <strong>Call 14416</strong>
+                    </p>
+
+                    <a href="tel:14416" class="button button-primary">
+                        Call Tele-MANAS
+                    </a>
+
+                </article>
+
+
+                <article class="support-card">
+
+                    <h3>Professional Support</h3>
+
+                    <p>
+                        A qualified mental health professional
+                        can help you understand difficult feelings
+                        and explore ways to cope.
+                    </p>
+
+                </article>
+
             </div>
 
         </section>
 
     </main>
 
+
     <!-- FOOTER -->
-    <footer>
-        <a href="#home" class="logo">mindful<span>minds.</span></a>
+    <footer class="footer">
 
-        <p>A little kindness can make a difference. ♡</p>
+        <a href="#home" class="logo">
+            Mindful Minds <span>♡</span>
+        </a>
 
-        <p class="footer-note">
-            This website provides general educational information.
-            It does not diagnose or treat mental health conditions
-            and is not a substitute for professional care.
+        <p>
+            A little more awareness. A little more kindness.
+            A little more understanding.
+        </p>
+
+        <p class="footer-disclaimer">
+            Mindful Minds is an educational awareness project.
+            It is not a substitute for professional mental
+            health advice, diagnosis, or treatment.
         </p>
 
         <p class="copyright">
-            © 2026 Mindful Minds. Made with care.
+            &copy; 2026 Mindful Minds. Created with care ♡
         </p>
+
     </footer>
-    <script src="script.js"></script>
 
 </body>
-
 </html>
+
+          
+              
+             
+
+              
+
+
+
